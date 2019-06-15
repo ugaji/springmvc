@@ -16,10 +16,6 @@ import web.sample.service.employee.EmployeeService;
 public class EmployeeRegistrationController {
      @Autowired
      EmployeeService employeeService;  
-	 //commit test
-     //commit test2
-     //commit test3
-     //commit test5
      //commit test41
      //cpmmitt test51
      //lll
