@@ -7,11 +7,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class LoginController {
-//llllf
+//ele
+	//elrlr
 	 @RequestMapping(value = "/", method = RequestMethod.GET)
 	 public String login(final ModelMap modelMap) {
 		 System.out.println("login");
 		 return "redirect:/employee/new";
 	 }
+	 //lrlr
 	 
 }

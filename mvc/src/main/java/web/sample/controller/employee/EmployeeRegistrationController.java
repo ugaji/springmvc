@@ -18,17 +18,7 @@ public class EmployeeRegistrationController {
      EmployeeService employeeService;  
      //efkgjtkejg
 	 //commit test
-     //commit test2
-     //commit test3
-     //dfhgdh
-     //commit test5
-     //commit test41
-     //cpmmitt test51
-     //lll
-     //sharani 
-     //commit test557
-     //commit test999
-     //commit kfkfk
+//fffff
 //xzcdscfsef
 	 @RequestMapping(value = "/new", method = RequestMethod.GET)
 	 public String newEmp(final ModelMap modelMap) {
