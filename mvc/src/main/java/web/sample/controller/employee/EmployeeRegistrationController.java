@@ -29,12 +29,7 @@ public class EmployeeRegistrationController {
      //commit test557
      //commit test999
      //commit kfkfk
-<<<<<<< HEAD
-//rgrdger
-=======
-     //dgrety
-     
->>>>>>> branch 'master' of https://github.com/ugaji/springmvc.git
+
 	 @RequestMapping(value = "/new", method = RequestMethod.GET)
 	 public String newEmp(final ModelMap modelMap) {
 
