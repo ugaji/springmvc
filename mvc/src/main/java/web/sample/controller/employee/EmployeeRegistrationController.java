@@ -17,8 +17,7 @@ import web.sample.service.employee.EmployeeService;
 public class EmployeeRegistrationController {
      @Autowired
      EmployeeService employeeService;  
-	
-	
+	 //commit test
 	 @RequestMapping(value = "/new", method = RequestMethod.GET)
 	 public String newEmp(final ModelMap modelMap) {
 
