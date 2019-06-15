@@ -49,5 +49,8 @@ public class EmployeeRegistrationController {
 		 employeeService.updateEmployee(Integer.parseInt(id), name);;
 		 return "redirect:/employee/edit?id="+id;
 	 }
+	 public void testme() {
+		 
+	 }
 	 
 }
