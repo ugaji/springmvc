@@ -30,7 +30,7 @@ public class EmployeeRegistrationController {
 
 		 return "newEmployee";
 	 }
-	 
+	 //committ kfkfkf
 	 @RequestMapping(value = "/new", method = RequestMethod.POST)
 	 public String newEmpCreate(final HttpServletRequest request) {
 		 String name =  request.getParameter("name");
