@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class LoginController {
-//llllf
+//sfdgdfg
+//sdfdsg	
 	 @RequestMapping(value = "/", method = RequestMethod.GET)
 	 public String login(final ModelMap modelMap) {
 		 System.out.println("login");
