@@ -3,7 +3,6 @@ package web.sample.controller.employee;
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,9 +17,11 @@ public class EmployeeRegistrationController {
      @Autowired
      EmployeeService employeeService;  
 	 //commit test
+     //commit test2
      //commit test3
      //commit test5
      //commit test41
+
 	 @RequestMapping(value = "/new", method = RequestMethod.GET)
 	 public String newEmp(final ModelMap modelMap) {
 
